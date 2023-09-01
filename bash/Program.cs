@@ -19,10 +19,17 @@ Console.Beep();
 
 //--------------------------
 
+Random number = new Random();
+string turn = Console.ReadLine().ToLower();
+
 while (gunnar.hp > 0 && leif.hp > 0)
 {
     Console.WriteLine("Nu kör vi förfan!");
 
+    
+
 }
 
+
 Console.ReadLine();
+
